@@ -1,0 +1,49 @@
+[2025-05-29 16:55:46,554] 26 root - INFO - Initiating data ingestion
+[2025-05-29 16:56:00,888] 66 root - INFO - Performed train test split on the dataframe
+[2025-05-29 16:56:00,888] 68 root - INFO - Exicted split_data_as_train_test method of Data_Ingestion class
+[2025-05-29 16:56:00,888] 74 root - INFO - Exporting train and test file path
+[2025-05-29 16:56:01,065] 83 root - INFO - Exported train and test file path.
+[2025-05-29 16:56:01,066] 28 root - INFO - Data ingestion completed
+[2025-05-29 16:56:01,070] 34 root - INFO - Initiating data validation
+[2025-05-29 16:56:01,119] 31 root - INFO - Required number of columns:2
+[2025-05-29 16:56:01,133] 32 root - INFO - Data frame has columns: 50
+[2025-05-29 16:56:01,133] 31 root - INFO - Required number of columns:2
+[2025-05-29 16:56:01,133] 32 root - INFO - Data frame has columns: 50
+[2025-05-29 16:56:01,431] 36 root - INFO - Data validation completed
+[2025-05-29 16:56:01,431] 41 root - INFO - Data transformation started
+[2025-05-29 16:56:01,431] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-05-29 16:56:01,431] 65 root - INFO - Starting data transformation
+[2025-05-29 16:56:01,473] 49 root - INFO - Entered get_data_transformer_object method of Transformation class
+[2025-05-29 16:56:01,474] 54 root - INFO - Initialize KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-05-29 16:56:01,489] 45 root - INFO - Entered the save_object method od MainUtils class
+[2025-05-29 16:56:01,494] 49 root - INFO - Excited the save_object method of MainUtils class
+[2025-05-29 16:56:01,495] 44 root - INFO - Data transformation completed
+[2025-05-29 16:56:01,496] 48 root - INFO - Model training started
+[2025-05-29 16:56:01,503] 59 root - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\utils\main_utils\utils.py", line 71, in load_numpy_array_data
+    return np.loaf(file_obj)
+           ^^^^^^^
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\venv\Lib\site-packages\numpy\__init__.py", line 427, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'loaf'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\components\model_trainer.py", line 110, in initiate_model_trainer
+    train_arr = load_numpy_array_data(train_file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\utils\main_utils\utils.py", line 73, in load_numpy_array_data
+    raise NetworkSecurityException(e, sys) from e
+networksecurity.exception.exception.NetworkSecurityException: Error occurred in python script [C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\utils\main_utils\utils.py] at line number [71]: module 'numpy' has no attribute 'loaf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\main.py", line 54, in run_pipeline
+    model_trainer_artifact = model_trainer.initiate_model_trainer()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\components\model_trainer.py", line 122, in initiate_model_trainer
+    raise NetworkSecurityException(e, sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occurred in python script [C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\components\model_trainer.py] at line number [110]: Error occurred in python script [C:\Users\Mai Le Cuong\Documents\MLOPS Projects\networksecurity\utils\main_utils\utils.py] at line number [71]: module 'numpy' has no attribute 'loaf'
