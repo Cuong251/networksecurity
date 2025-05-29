@@ -1,0 +1,150 @@
+AbnormalExtFormActionR:
+  drift_status: false
+  p_value: 0.999999998717466
+AbnormalFormAction:
+  drift_status: false
+  p_value: 1.0
+AtSymbol:
+  drift_status: false
+  p_value: 1.0
+CLASS_LABEL:
+  drift_status: false
+  p_value: 0.46158493409313933
+DomainInPaths:
+  drift_status: false
+  p_value: 0.9253718227633133
+DomainInSubdomains:
+  drift_status: false
+  p_value: 0.9999999967429405
+DoubleSlashInPath:
+  drift_status: false
+  p_value: 1.0
+EmbeddedBrandName:
+  drift_status: false
+  p_value: 0.999998307409455
+ExtFavicon:
+  drift_status: false
+  p_value: 1.0
+ExtFormAction:
+  drift_status: false
+  p_value: 1.0
+ExtMetaScriptLinkRT:
+  drift_status: false
+  p_value: 0.3690664200540433
+FakeLinkInStatusBar:
+  drift_status: false
+  p_value: 1.0
+FrequentDomainNameMismatch:
+  drift_status: false
+  p_value: 0.9810739207100523
+HostnameLength:
+  drift_status: false
+  p_value: 0.606244874851325
+HttpsInHostname:
+  drift_status: false
+  p_value: 1.0
+IframeOrFrame:
+  drift_status: false
+  p_value: 1.0
+ImagesOnlyInForm:
+  drift_status: false
+  p_value: 1.0
+InsecureForms:
+  drift_status: false
+  p_value: 0.9999999999989903
+IpAddress:
+  drift_status: false
+  p_value: 1.0
+MissingTitle:
+  drift_status: false
+  p_value: 1.0
+NoHttps:
+  drift_status: false
+  p_value: 1.0
+NumAmpersand:
+  drift_status: false
+  p_value: 0.9969400783999032
+NumDash:
+  drift_status: false
+  p_value: 0.9253718227633133
+NumDashInHostname:
+  drift_status: false
+  p_value: 0.9789097287257662
+NumDots:
+  drift_status: false
+  p_value: 0.556461547390134
+NumHash:
+  drift_status: false
+  p_value: 1.0
+NumNumericChars:
+  drift_status: false
+  p_value: 0.9999990188043283
+NumPercent:
+  drift_status: false
+  p_value: 0.9999999616421527
+NumQueryComponents:
+  drift_status: false
+  p_value: 0.6736087459369353
+NumSensitiveWords:
+  drift_status: false
+  p_value: 1.0
+NumUnderscore:
+  drift_status: false
+  p_value: 0.9999953717141711
+PathLength:
+  drift_status: false
+  p_value: 0.49234090283192117
+PathLevel:
+  drift_status: false
+  p_value: 0.8741344283903589
+PctExtHyperlinks:
+  drift_status: false
+  p_value: 0.7882173431097003
+PctExtNullSelfRedirectHyperlinksRT:
+  drift_status: false
+  p_value: 0.9999825938040086
+PctExtResourceUrls:
+  drift_status: false
+  p_value: 0.14692199822470306
+PctExtResourceUrlsRT:
+  drift_status: false
+  p_value: 0.9999999999476644
+PctNullSelfRedirectHyperlinks:
+  drift_status: false
+  p_value: 0.4032153226355176
+PopUpWindow:
+  drift_status: false
+  p_value: 1.0
+QueryLength:
+  drift_status: false
+  p_value: 0.8036157535735526
+RandomString:
+  drift_status: false
+  p_value: 1.0
+RelativeFormAction:
+  drift_status: false
+  p_value: 0.9042493084736836
+RightClickDisabled:
+  drift_status: false
+  p_value: 1.0
+SubdomainLevel:
+  drift_status: false
+  p_value: 0.92035205772542
+SubdomainLevelRT:
+  drift_status: false
+  p_value: 0.9999926357184024
+SubmitInfoToEmail:
+  drift_status: false
+  p_value: 0.9999999999476644
+TildeSymbol:
+  drift_status: false
+  p_value: 1.0
+UrlLength:
+  drift_status: false
+  p_value: 0.6651832402447956
+UrlLengthRT:
+  drift_status: false
+  p_value: 0.9999998428145436
+id:
+  drift_status: false
+  p_value: 0.20022381635429007
