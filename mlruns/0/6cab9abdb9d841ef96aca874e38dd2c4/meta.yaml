@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mai%20Le%20Cuong/Documents/MLOPS%20Projects/mlruns/0/6cab9abdb9d841ef96aca874e38dd2c4/artifacts
+end_time: 1748568473325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6cab9abdb9d841ef96aca874e38dd2c4
+run_name: selective-steed-260
+run_uuid: 6cab9abdb9d841ef96aca874e38dd2c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748568464648
+status: 3
+tags: []
+user_id: Mai Le Cuong

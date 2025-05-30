@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mai%20Le%20Cuong/Documents/MLOPS%20Projects/mlruns/0/e73b8c03da42493194f72d402867ae65/artifacts
+end_time: 1748568464621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e73b8c03da42493194f72d402867ae65
+run_name: brawny-shad-510
+run_uuid: e73b8c03da42493194f72d402867ae65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748568453204
+status: 3
+tags: []
+user_id: Mai Le Cuong
